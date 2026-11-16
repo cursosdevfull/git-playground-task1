@@ -12,3 +12,5 @@ I've created a function to sum two numbers
 3. **Style mismatch.** The rest of the file uses semicolons and spaces around operators; `sum` has `a+b` with no spaces and no semicolon.
 4. **No newline at end of file** in `scripts/check.js`.
 5. **Working on `main`.** Changes are made directly on the default branch; the workflow runs on `pull_request`, so these should go on a separate branch and be opened as a PR.
+
+**Did Claude catch it?** Yes — Claude caught the stray change: it flagged the `sum` function added to `scripts/check.js` as unintended (wrong file, unused dead code).
